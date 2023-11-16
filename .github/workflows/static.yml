@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+    href="style.css">
+    <title>mi página web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .producto {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .producto img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="titulo.jpg" alt="logo de mi sitio web">
+    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tu Título</title>
+        <style>
+      
+    body {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <p> 
+        <h1>CATÁLOGO</h1>
+    </p>
+  </body>
+  
+    <div class="product">
+        <h2>RIMEL</h2>
+        <img src="imagen1.jpg" alt="Producto 1"
+        class="product-image">
+        <h3>Precio: $30.600</h3>
+    </div>
+
+    <div class="product">
+        <h2>PALETA DE MAQUILLAJE</h2>
+        <img src="imagen2.jpg" alt="Producto 2"
+        class="product-image">
+        <h3>Precio: $50.000</h3>
+    </div>
+
+    <div class="product">
+        <h2>LABIAL</h2>
+        <img src="imagen3.jpg" alt="Producto 2"
+        class="product-image">
+        <h3>Precio: $15.000</h3>
+    </div>
+
+    <div class="product">
+        <h2>CORRECTOR</h2>
+        <img src="imagen4.jpg" alt="Producto 2"
+        class="product-image">
+        <h3>Precio: $10.500</h3>
+    </div>
+
+    <div class="product">
+        <h2>PRIMER</h2>
+        <img src="imagen5.jpg" alt="Producto 2"
+        class="product-image">
+        <h3>Precio: $25.000</h3>
+    </div>
+
+    <div class="product">
+        <h2>RUBOR</h2>
+        <img src="imagen6.jpg" alt="Producto 2"
+        class="product-image">
+        <h3>Precio: $7.000</h3>
+    </div>
+</body>
+</html>
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #84bceb; /* Cambia este color según tus preferencias */
+}
+/* Estilo para las imagenes */
+.product-image{
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgb(0,0,0,0.9);
+    max-width: 200px;
+    margin-right: 10px;
+}
+/* Estilos para el logo */
+header img.product-image{
+    max-width: 200px; 
+    margin-rigth: 10px;
+    display: inline-block;
+}
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos del contenido */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
